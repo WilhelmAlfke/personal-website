@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  src: url(".css/font/Poppins-ExtraLight.tff");
+  line-height: 1.5;
+  padding: 20px;
+  background-color: seashell;
+}
+
+h1,
+h2 {
+  color: black;
+  padding: 10px;
+  margin: 0;
+}
+
+article {
+  color: black;
+  text-decoration: underline;
+}

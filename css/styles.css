@@ -25,3 +25,31 @@ h2 {
   color: black;
   text-decoration: underline;
 }
+.html {
+  list-style: url(/img/html.svg);
+  padding: 10px;
+  margin-left: 50px;
+}
+.css {
+  list-style: url(/img/css.svg);
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.goto-top {
+  width: 35px;
+  height: 24px;
+  padding: 12px;
+  border-radius: 18%;
+  background: black;
+  color: white;
+  text-decoration: noneunderline;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  position: fixed;
+  bottom: 10%;
+  left: 5%;
+}

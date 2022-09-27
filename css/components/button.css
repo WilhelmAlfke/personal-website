@@ -1,0 +1,21 @@
+.button {
+  padding: 3px 20px;
+  border: none;
+  border-radius: 14px;
+  font-weight: light;
+  font-size: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 2px 8px;
+}
+
+.button--toggle {
+  background-color: rgb(73, 82, 93);
+  color: black;
+}
+
+.button:hover {
+  background-color: rgb(186, 141, 68);
+}
+
+.dark {
+  background-color: rgb(73, 82, 93);
+}

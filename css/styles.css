@@ -9,9 +9,14 @@ body {
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
   src: url(".css/font/Poppins-ExtraLight.tff");
-  line-height: 1.5;
+  line-height: 1.1rem;
   padding: 20px;
   background-color: seashell;
+}
+
+body.dark {
+  background-color: rgb(50, 51, 58);
+  color: white;
 }
 
 h1,

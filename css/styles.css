@@ -1,8 +1,8 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
+@import "./global.css";
+@import "./components/header.css";
+@import "./components/footer.css";
+@import "./components/navigation.css";
+@import "./components/button.css";
 
 body {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -30,6 +30,7 @@ h2 {
   padding: 10px;
   margin-left: 50px;
 }
+
 .css {
   list-style: url(/img/css.svg);
   padding: 10px;
